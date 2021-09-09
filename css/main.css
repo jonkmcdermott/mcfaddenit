@@ -1,0 +1,84 @@
+/* CAPTURES ALL CONTENT IN THE 3 ROW SECTION */
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content-section {
+    margin-top: 2rem;
+}
+
+.jumbotron-landing {
+    margin-top: 1rem;
+    background-image: url(../images/circut.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(51, 51, 51, 0.26);
+    color: white;
+    text-align: center;
+}
+
+.jumbotron-landing .container {
+    background-color: rgba(0, 0, 0, 0.90);
+}
+
+.jumbotron-landing div {
+    padding: 1rem 2rem 1rem 2rem ;
+}
+
+.info-card {
+    position: relative;
+    padding: 2rem 1.5rem 2rem 1.5rem;
+    /*margin: .5rem .5rem .5rem .5rem ;*/
+    background-color: rgba(255, 255, 255);
+    color: black;
+    min-height: 42ch;
+    max-height: auto;
+    margin-top: 1.5rem;
+}
+
+.info-card .btn{
+    position: absolute;
+    margin: 2rem 1.5rem;
+    bottom: 0;
+    left: 0;
+    padding: .5em 1.75em;
+    background-color:#008a8a;
+    outline-style: line;
+    outline-width: 1px;
+    outline-color: #016e6e;
+    color: white;
+    transition: 
+        background-color 300ms ease, 
+        outline-width 300ms ease, 
+        color 300ms ease;
+}
+.info-card .btn:hover{
+    background-color: #005959;
+    color: #dafefe;
+    outline-width: 3px;
+}
+
+.info-card .paragraph-title {
+    color: #0e0e0e;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.info-card p {
+    line-height: 1.75rem;
+    color: #242424;
+}
+
+
+footer {
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+    background-color: #0e0e0e;
+}
